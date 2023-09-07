@@ -12,7 +12,7 @@ config_s2i
 
 echo "---> Installing application source"
 cp -Rf  /tmp/src/*.html ./
-DATE=date "+%F"
+DATE=date +%F
 echo "$DATE" >> ./info.html
 echo "Astra inclinant, sed non obligant" >> ./info.html
 
